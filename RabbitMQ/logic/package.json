@@ -1,0 +1,19 @@
+{
+  "name": "crud-service",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "typescript": "^4.4.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.5",
+    "@types/node": "^16.0.0",
+    "@types/uuid": "^8.3.4",
+    "ts-node": "^10.2.1"
+  }
+}
